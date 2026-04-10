@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/infoext2.delegaciondelgobierno.gob.es/infoext2/index.html"
+    },
+    {
+      "source": "/infoext2/:path*",
+      "destination": "/infoext2.delegaciondelgobierno.gob.es/infoext2/:path*"
+    }
+  ]
+}
